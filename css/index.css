@@ -1,0 +1,111 @@
+body{
+      font-family: 'Outfit', sans-serif;
+      background: url(images/pattern-background-desktop.svg) no-repeat;
+      background-color:  hsl(225, 100%, 94%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: ;
+      font-size: 13px;
+
+    }
+
+    .main{
+      margin-top:;
+      background-color: white;
+      width: 45%;
+      text-align: center;
+      border-radius: 10px;
+      box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+   .topimage{
+    width: 100%;
+    height: auto;
+   }
+
+   .text{
+  padding: 2.5em 3em;
+ }
+
+ h1{
+  font-size: 2.5em;
+  font-weight: 900;
+  margin: 0;
+  color: black;
+ }
+
+ .text p{
+  line-height: 1.6em;
+  font-size: 1.5em;
+ }
+
+.promo{
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  text-align: left;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h2{
+  font-size: 1em;
+  color: black;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.iconimg{
+  width: 100%;
+  height: auto;
+  max-width: 3em;
+}
+
+.prices{
+  display: inline-block;
+}
+
+.prices{margin-top: 0.5em;}
+
+.change{
+color: hsl(245, 75%, 52%);
+font-weight: 900;
+text-align: center;
+text-decoration: none;
+flex-grow: 0.5;
+}
+
+.payment{
+  padding: 1em;
+  width: 80%;
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1.5em 1.75em;
+  transition: 0.5ease;
+}
+
+.cancel{
+  text-decoration: none;
+  color: gray;
+  font-weight: 900;
+  transition: 0.3ease;
+}
+
+.infopay{
+  display: flex;
+  flex-direction: column;
+}
+
+.change:hover{opacity: 0.5; cursor: pointer;}
+.payment:hover{opacity: 0.5; cursor: pointer;}
+.cancel:hover{opacity: 0.5; cursor: pointer;}
+
+.change:focus{opacity: 0.5; cursor: pointer;}
+.payment:focus{opacity: 0.5; cursor: pointer;}
+.cancel:focus{opacity: 0.5; cursor: pointer;}
